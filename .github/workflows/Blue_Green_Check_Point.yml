@@ -1,0 +1,17 @@
+name: Blue_Green_Check_Point
+
+on: push
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+
+      - name: Greet and count files
+        env:
+          Blue_Green_Check_Point: ${{ vars.Blue_Green_Check_Point }}
+        run: |
+          COUNT=$(find . -type f -not -path './.git/*' | wc -l)
+          echo "Hello $Blue_Green_Check_Point, your files count are $COUNT"
