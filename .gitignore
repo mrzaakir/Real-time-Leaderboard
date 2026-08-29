@@ -28,3 +28,9 @@ dist-ssr
 .npm
 .cache
 .shellcheckrc
+
+
+# Optional npm cache directory
+.npm
+.cache
+.shellcheckrc
