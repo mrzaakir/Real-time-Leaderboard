@@ -2,13 +2,6 @@ Leaderboard — Frontend-only Small Demo
 
 This is a simplified, frontend-only leaderboard demo built with React + Vite + Tailwind CSS. It stores users and scores in the browser's localStorage so you can run the whole project without a backend or Redis.
 
-Features (small and client-only):
-- Register / Login (stored in localStorage; insecure but fine for demo)
-- Submit score (stored in localStorage)
-- Global leaderboard (best score per user)
-- User rank
-- Top players report for last N days (aggregated from stored scores)
-- No backend required — runs fully in the browser
 
 Quick start (Windows PowerShell)
 
