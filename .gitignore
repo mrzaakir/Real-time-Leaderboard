@@ -22,7 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-yes
+ye
 
 # Optional npm cache directory
 .npm
