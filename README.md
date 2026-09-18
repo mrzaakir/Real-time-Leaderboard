@@ -17,3 +17,10 @@ Notes
 - Data is stored in localStorage keys: "rtlb_users" and "rtlb_scores". Clearing browser storage removes data.
 - This is intentionally small and meant for local experimentation. Do not use localStorage for sensitive or production data.
 
+#2027#
+Top 5 skils in 2027
+Ai automation
+Ai agents 
+Editing
+Content creation
+development
